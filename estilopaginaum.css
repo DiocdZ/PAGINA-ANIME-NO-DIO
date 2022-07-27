@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin:0px ;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+--cor-principal:rgb(0, 5, 10);
+--cor-secundaria: rgb(247, 16, 16);
+}
+
+
+.body{
+    background-color: cornflowerblue;
+}
+
+nav{
+    max-width: 350px;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+
+
+}
+
+
+nav ul li a{
+    background-color: var(--cor-principal);
+    color:aliceblue;
+    padding: 20px 5px;
+    display: block;
+    transition: background,2s;
+    
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+img{
+    width: 100px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+label{
+    background-color:orange;
+    padding: 15px;
+    position: absolute;
+}
