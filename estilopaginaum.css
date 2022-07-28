@@ -9,44 +9,50 @@ a{
     color: black;
 }
 
-:root{
---cor-principal:rgb(0, 5, 10);
---cor-secundaria: rgb(247, 16, 16);
-}
-
-
 .body{
-    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(IMAGENS/END\ VIDEO.png);
+    background-size:100%;
 }
 
 nav{
-    max-width: 350px;
-    background-color: aquamarine;
+    background-color: rgb(34, 23, 23);
     height: 100%;
+    width: 350px;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
 }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    top: 50px;
+input[type="checkbox"]:checked ~ nav{
+    transform:translateX(350px) ;
+}
+ul{
+    list-style: none;
+    top: 60px;
     position: absolute;
     width: 100%;
 }
 
-
-nav ul li a{
-    background-color: var(--cor-principal);
-    color:aliceblue;
+a{
+    background-color: rgb(28, 17, 17);
+    display:block;
     padding: 20px 5px;
-    display: block;
-    transition: background,2s;
-    
+    color: aliceblue;
+    transition:background, 2s
 }
 
-nav ul li a:hover{
-    background-color: var(--cor-secundaria);
-    color: var(--cor-principal);
+a:hover{
+    background-color: whitesmoke;
+    color: black;
 }
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
 
 img{
     width: 100px;
@@ -55,10 +61,4 @@ img{
 input[type="checkbox"]
 {
     display: none;
-}
-
-label{
-    background-color:orange;
-    padding: 15px;
-    position: absolute;
 }
