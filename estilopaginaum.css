@@ -11,12 +11,12 @@ a{
 
 .body{
     font-family: Arial, Helvetica, sans-serif;
-    background: url(IMAGENS/END\ VIDEO.png);
+    /* background: url(IMAGENS/END\ VIDEO.png);*/
     background-size:100%;
 }
 
 nav{
-    background-color: rgb(34, 23, 23);
+    background-color: rgb(0, 0, 0);
     height: 100%;
     width: 350px;
     left: -350px;
@@ -35,7 +35,7 @@ ul{
 }
 
 a{
-    background-color: rgb(28, 17, 17);
+    background-color: rgb(0, 0, 0);
     display:block;
     padding: 20px 5px;
     color: aliceblue;
