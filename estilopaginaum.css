@@ -8,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
    /* background: url(IMAGENS/END\ VIDEO.png);*/
     background-size:100%;
+    
 }
 
 nav{
@@ -22,6 +23,7 @@ nav{
 input[type="checkbox"]:checked ~ nav{
     transform:translateX(350px) ;
 }
+
 ul{
     list-style: none;
     top: 60px;
@@ -43,6 +45,7 @@ a:hover{
     background-color: whitesmoke;
     color: rgb(248, 245, 245);
 }
+
 
 label{
     padding: 15px;
