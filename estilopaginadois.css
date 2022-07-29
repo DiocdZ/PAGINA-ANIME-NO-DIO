@@ -1,4 +1,14 @@
 #h1{
-    text-align: left;
+    text-align: center;
     color:aliceblue;
+}
+
+a link{
+    text-align: center;
+    color: aliceblue;
+}
+
+.section-pag{
+    background-color: blue;
+    text-align: center;
 }
