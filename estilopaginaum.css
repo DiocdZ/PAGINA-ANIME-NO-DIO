@@ -54,41 +54,69 @@
 
 /*IMAGES*/
 
-/* .background{
+.background{
 background: url(./MENU/LOGO\ 1.png);
 
-}*/
 
+}
+
+img{
+    width: 50%;
+    border: solid 2px;
+    
+}
+
+/*DIVISÃO DA PAGINA*/
 *{
     padding: 0;
     margin:0 auto;
     margin-top: 5px;
     
+    
 }
 section{
     display:flex
-    
 }
 
 aside{
-    background-color: aqua;
+   /* background-color: aqua;*/
     width: 200px;
     height: 500px;
     float: left;
+    border: solid pink 2px;
 }
 
 main{
-    background-color: blueviolet;
+   /* background-color: blueviolet;*/
     width: 1050px;
     height: 500px;
-    float: left ;
+    display: flex;
+    align-items: center;
+    border: solid orange 2px;
+    justify-content:center;
 }
 
 footer{
-    background-color: brown;
+   /* background-color: brown;*/
     width: 1250px;
     height:80px;
     margin-bottom: 5px;
+    border: solid blueviolet 2px;
    
 }
 
+/*POSIÇÃO INTERNA DE CONTEUDOS*/
+
+.videos-youtube{
+    align-items: center;
+    border: solid black 1px;
+}
+
+.h1{
+    display: flex;
+    
+}
+
+p{
+    display: flex;
+}
